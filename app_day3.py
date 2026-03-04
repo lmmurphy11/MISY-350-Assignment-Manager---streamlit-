@@ -60,6 +60,11 @@ with tab1:
                 selected_assignment = assignment
                 break
 
+        st.divider()
+        selected_assignment = st.selectbox("Select Title",
+                                           options= assignments,
+                                           format_func= lambda x: f"{x['title']} [{x}]")
+
 
         if selected_assignment:
             with st.expander("Assignment Details", expanded = True):
@@ -119,7 +124,9 @@ with tab2:
 
                 st.success("New Assignment is recorded!")
                 st.info("This is a new assignment")
-                st.dataframe(assignments)
+                time.sleep(4)
+                #st.dataframe(assignments)
+                st.rerun()
 
 
 with tab3:
@@ -139,8 +146,19 @@ with tab3:
             break
 
     if assignment_edit:   
-        edit_title = st.text_input("Title", key= "edits_title", value= assignment_edit['title'])
-        edit_description = st.text_area("Description", key= "edit_description", value=assignment_edit['description'])
+        edit_title = st.text_input("Title", key= f"edit_title_{assignment_edit['id']}", 
+                                   value= assignment_edit['title'])
+        edit_description = st.text_area("Description", key= "edit_description", 
+                                        value=assignment_edit['description'])
+        
+        type_options = ["Homework", "Lab"]
+        selected_index = type_options.index(assignment_edit["type"])
+
+        edit_type = st.radio("Type", type_options, 
+                            key = f"edit_assignment{assignment_edit['id']}",
+                            index = selected_index)
+                            
+
     
 
     btn_update = st.button("Update", key ="update_button", type= "secondary", use_container_width= True)
@@ -153,7 +171,14 @@ with tab3:
             with json_path.open("w", encoding = "utf-8") as f:
                 json.dump(assignments, f)
 
-            st.success("Updated...")
+            st.success("Assignment is Updated!")
+            time.sleep(5)
+            st.rerun()
+
+st.sidebar()
+st.markdown()
+
             
+
 
 
