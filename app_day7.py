@@ -5,9 +5,10 @@ from datetime import datetime
 import uuid
 import time
 
-st.set_page_confi("Orders Management App", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config("Orders Management App", layout="wide", initial_sidebar_state="expanded")
 
-if "page" not in st.session_state
+if "page" not in st.session_state:
+    st.session_state["page"] = "home"
 
 inventory = [
 {"id": 1, "name": "Espresso", "price": 2.50, "stock": 40},
