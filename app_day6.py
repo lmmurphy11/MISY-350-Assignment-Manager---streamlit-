@@ -217,7 +217,7 @@ with tab3:
             st.rerun()
 
 
-elif st.session_state['role'] == "Admin":
+elif st.session_state["role"] == "Admin":
     st.markdown("Welcome! This is the Admin Dashboard")
 
     if st.button("Log out", type = "primary", use_container_width = True):
