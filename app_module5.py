@@ -82,6 +82,7 @@ elif st.session_state["page"] == "Add New Assignment":
         with st.spinner("In Progress..."):
             time.sleep(3)
 
+            #add new assignment to the assignments 
             assignments.append(
                 {
                     "id": str(uuid.uuid4()),
