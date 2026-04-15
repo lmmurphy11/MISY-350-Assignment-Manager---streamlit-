@@ -1,9 +1,1 @@
-[
-    {
-        "order_id": "order_101",
-        "item_id": "1",
-        "quantity": 2,
-        "status": "placed",
-        "total": 8.50
-    }
-]
+[{"order_id": "order_101", "item_id": "1", "quantity": 2, "status": "placed", "total": 8.5}, {"order_id": "755d2a86-6afc-4941-83bd-15d697123560", "item_id": "1", "quantity": 2, "status": "placed", "total_cost": 5.0}]
