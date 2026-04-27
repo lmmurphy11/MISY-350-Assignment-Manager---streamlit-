@@ -29,7 +29,7 @@ assignments = [
 #col1, col2 = st.columns(2) -----> this will give you 50%---50%
 st.subheader("Add New Assignment")
 
-with st.container(border= True)
+with st.container(border= True):
 
 col1, col2 = st.columns([2,1])
 #col1, col2, col3 = st.colomns([1, 6, 1])

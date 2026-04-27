@@ -13,7 +13,7 @@ class AssignmentManager:
         if not title.strip():
             raise ValueError("Title is required")
         
-        allowed_types = ["Homework", "Lab"]
+        allowed_types = ["homework", "lab"]
 
         if assignment_type.lower() not in allowed_types:
             raise ValueError("Assignment type is invalid")
