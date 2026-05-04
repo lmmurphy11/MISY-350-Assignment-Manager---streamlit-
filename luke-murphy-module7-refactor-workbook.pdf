@@ -1,0 +1,64 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 1446 >>
+stream
+BT
+/F1 10 Tf
+14 TL
+54 738 Td
+(In-Class Refactor Workbook) Tj T*
+(Generated: 5/4/2026, 12:25:26 PM) Tj T*
+() Tj T*
+(Student Information) Tj T*
+(Name: Luke Murphy) Tj T*
+(Team members: Chris Nevins, Thomas Bott) Tj T*
+(Last updated: May 4, 2026, 12:25 PM) Tj T*
+() Tj T*
+(Phase 1: Understand the starting class) Tj T*
+() Tj T*
+(1A. Responsibility Map) Tj T*
+(load_codes: Current job: SERVICE; Should move later: Yes) Tj T*
+(save_codes: Current job: DATA; Should move later: Yes) Tj T*
+(generate_code: Current job: SERVICE; Should move later: Yes) Tj T*
+(get_codes: Current job: SERVICE; Should move later: Yes) Tj T*
+(use_code: Current job: MIXED; Should move later: Yes) Tj T*
+(deactivate_code: Current job: SERVICE; Should move later: Yes) Tj T*
+(deactivate_expired_codes: Current job: SERVICE; Should move later: Yes) Tj T*
+(deactivate_all_help_codes: Current job: SERVICE; Should move later: Yes) Tj T*
+(get_summary: Current job: SERVICE; Should move later: Yes) Tj T*
+(show: Current job: UI; Should move later: No) Tj T*
+(show_generate_tab: Current job: UI; Should move later: No) Tj T*
+(show_manage_tab: Current job: UI; Should move later: No) Tj T*
+(show_try_code_tab: Current job: UI; Should move later: No) Tj T*
+(_format_codes_for_display: Current job: UI; Should move later: No) Tj T*
+(_generate_unique_code: Current job: SERVICE; Should move later: Yes) Tj T*
+(_find_code: Current job: SERVICE; Should move later: Yes) Tj T*
+() Tj T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000241 00000 n 
+0000001739 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+1809
+%%EOF
